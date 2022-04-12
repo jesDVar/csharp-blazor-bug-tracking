@@ -11,4 +11,11 @@
 
 @code {
     public Bug AddBug { get; set; } = new Bug();
+    [Inject]
+    public IBugService BugService { get; set; }
+
+    protected void HandleValidSubmit()
+    {
+        AddBug();
+    }
 }
