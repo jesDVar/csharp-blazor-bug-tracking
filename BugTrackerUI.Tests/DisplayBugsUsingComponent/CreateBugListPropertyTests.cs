@@ -1,13 +1,9 @@
-﻿using HtmlAgilityPack;
-using System;
+﻿using BugTrackerUI;
+using BugTrackerUI.Tests;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Reflection;
-using System.Text;
 using Xunit;
-using BugTrackerUI.Tests;
-using BugTrackerUI;
 
 namespace M6_BugTrackerUI.Tests.DisplayBugsUsingComponent
 {
